@@ -1,0 +1,27 @@
+/* body{
+    width
+} */
+.box {
+  width: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.box > div {
+  display: grid;
+  width: 80px;
+  height: 80px;
+
+  border: 1px solid black;
+  place-content: center;
+  cursor: pointer;
+}
+.changing {
+  background-color: green;
+  color: white;
+}
+.changing1 {
+  background-color: red;
+  color: white;
+}
